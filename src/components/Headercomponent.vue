@@ -1,4 +1,5 @@
 <template>
+    <div class="fixador" >
     <div class="whitebar"></div>
     <header>
         <a class="logo desktop" href="">
@@ -56,22 +57,30 @@
         <a href=""> <img src="../components/img/ofertasfinal.png" alt=""> <p>Ofertas</p></a>
         <a href=""> <img src="../components/img/Tudofinal-Photoroom.png" alt=""> <p>Tudo</p></a>
     </div>
-
+</div>
 </template>
 
 <script setup></script>
 
 <style scoped>
+
+.fixador {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
 header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #08191f;
+    background: #ffffffde;
     min-height: 16vh;
     gap: 6vw;
     flex-wrap: wrap;
     padding: 10px;
-
 }
 
 .logo {
@@ -83,20 +92,21 @@ header {
 
 .logo img {
     width: auto;
-    height: 18vh;
+    height: 14vh;
+    filter: invert(1);
 }
 
 .input {
     display: flex;
     align-items: center;
     background-color: #ffffff;
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 0 20px;
     width: 36vw;
     height: 45px;
     gap: 10px;
     flex-shrink: 1;
-
+    border: 1px solid #000000;
 }
 
 .input img {
@@ -134,7 +144,7 @@ button {
     display: flex;
     align-items: center;
     gap: 6px;
-    color: #ffffff;
+    color: #000000;
     white-space: nowrap;
     background: transparent;
     border: none;
@@ -153,7 +163,6 @@ button:hover {
 button img {
     width: auto;
     height: 3vh;
-    filter: brightness(0) invert(1);
     transition: filter 0.2s ease;
 }
 
@@ -227,7 +236,7 @@ button:hover img {
     justify-content: center;
     align-items: center;
     min-height: 7.5vh;
-    background: #06080a;
+    background: #06080ae8;
     color: #ffffff;
     font-size: 14px;
     gap: 70px;

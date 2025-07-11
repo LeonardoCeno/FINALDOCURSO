@@ -6,10 +6,10 @@
         :style="{ transform: `translateX(-${indexAtual * 100}%)` }">
         <div
             class="carousel-slide"
-            v-for="(img, i) in banners"
+            v-for="(banner, i) in banners"
             :key="i">
             <a :href="bannerLinks[i]" class="banner-link">
-                <img class="img1" :src="img" alt="banner" />
+                <img class="img1" :src="banner" alt="banner" />
             </a>
         </div>
         </div>
@@ -67,7 +67,7 @@
 import { ref, onMounted } from 'vue'
 import banner1 from './img/ULTIMAJUJUTSU-Photoroom.png'
 import banner2 from './img/recente-Photoroom.png'
-import banner3 from './img/ULTIMA-Photoroom.png'
+import banner3 from './img/livrosbanner-Photoroom.png'
 
 const banners = [banner1, banner2, banner3]
 const bannerLinks = ['/pagina1', '/pagina2', '/pagina3'] // Links para cada banner
@@ -98,12 +98,12 @@ onMounted(() => {
     flex-direction: column;
     position: relative;
     overflow: hidden;
-    background-color: rgba(5, 0, 46, 0.226);
+    background-color: rgba(5, 0, 46, 0.103);
     height: 44vh;
     min-height: 300px;
     width: 100%;
     max-width: 100vw;
-    margin-top: 7px;
+    margin-top: 210px;
 }
 
 .carousel-wrapper {
@@ -336,6 +336,6 @@ onMounted(() => {
 
 .espaco2 {
     background-color:  #06080a;
-    min-height: 7.5vh;
+    min-height: 2.5vh;
 }
 </style>
