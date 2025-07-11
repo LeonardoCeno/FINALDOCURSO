@@ -65,9 +65,9 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
-import banner1 from './img/ULTIMAJUJUTSU-Photoroom.png'
-import banner2 from './img/recente-Photoroom.png'
-import banner3 from './img/livrosbanner-Photoroom.png'
+import banner1 from './img/CHEGA.png'
+import banner2 from './img/bannermangáatualizado.png'
+import banner3 from './img/LIVRO.png'
 
 const banners = [banner1, banner2, banner3]
 const bannerLinks = ['/pagina1', '/pagina2', '/pagina3'] // Links para cada banner
@@ -130,7 +130,7 @@ onMounted(() => {
     width: 100%;
     height: 100%;
     display: block;
-    filter: brightness(90%);
+    filter: brightness(85%);
     object-position: center;
 }
 
@@ -139,10 +139,10 @@ onMounted(() => {
     top: 50%;
     transform: translateY(-50%);
     font-size: 2rem;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.623);
     color: white;
     border: none;
-    padding: 8px 12px;
+    padding: 8px 8px;
     cursor: pointer;
     z-index: 10;
 }
