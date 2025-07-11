@@ -65,7 +65,7 @@ const produtosVisiveis = computed(() => {
     margin-top: 20px;
     background-color: #06080a;
     height: 9vh;
-    width: 77vw;
+    width: 84vw;
     margin-bottom: 70px;
 }
 
@@ -75,7 +75,7 @@ const produtosVisiveis = computed(() => {
 }
 
 .produtos {
-    width: 77vw;
+    width: 84vw;
 }
 
 .produto {

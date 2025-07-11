@@ -28,7 +28,7 @@
             <img src="../components/img/ManyaLogo-Photoroom.png" alt="" />
             </a>
             <div class="botoes">
-                <button>
+                <button @click="irParaLogin" >
                 <p>Entrar</p>
                 <img src="../components/img/usuariofinal.png" alt="" />
                 </button>
@@ -60,7 +60,15 @@
 </div>
 </template>
 
-<script setup></script>
+<script setup>
+
+import { useRouter } from 'vue-router'
+const router = useRouter()
+const irParaLogin = () => {
+    router.push('/login')
+}
+
+</script>
 
 <style scoped>
 
