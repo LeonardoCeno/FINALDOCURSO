@@ -66,7 +66,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import banner1 from './img/CHEGA.png'
-import banner2 from './img/bannermangáatualizado.png'
+import banner2 from './img/janemsei-Photoroom.png'
 import banner3 from './img/LIVRO.png'
 
 const banners = [banner1, banner2, banner3]

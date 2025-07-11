@@ -6,7 +6,7 @@
         <img src="../components/img/LOGOMANYA-Photoroom.png" alt="" />
         </a>
         <div class="input desktop">
-            <input type="text" placeholder="Mangás google buscar" />
+            <input type="text" placeholder="Livros, Mangás, novas visões..." />
             <img src="../components/img/LupaFinal.png" alt="" />
         </div>
         <div class="botoes desktop">
@@ -76,7 +76,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #ffffffde;
+    background: #ffffffd7;
     min-height: 16vh;
     gap: 6vw;
     flex-wrap: wrap;
@@ -236,7 +236,7 @@ button:hover img {
     justify-content: center;
     align-items: center;
     min-height: 7.5vh;
-    background: #06080ae8;
+    background: #06080af5;
     color: #ffffff;
     font-size: 14px;
     gap: 70px;
